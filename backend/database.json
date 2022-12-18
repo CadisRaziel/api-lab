@@ -1,0 +1,159 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "password": "123"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Academia do flutter"
+        },
+        {
+            "id": 1,
+            "title": "Jornada Dart"
+        },
+        {
+            "id": 2,
+            "title": "Jornada GetX"
+        }
+    ],
+    "docs": [
+        {
+            "subscriptions": {
+                "wefood": true
+            },
+            "services": {
+                "delivery": {
+                    "provider": "internal",
+                    "enabled": true,
+                    "scheduleAheadMinutes": 4320,
+                    "schedules": [
+                        {
+                            "repeatsOn": [
+                                6,
+                                5,
+                                4,
+                                3
+                            ],
+                            "_id": "5fce6783a119f0a04a51778c",
+                            "start": "11:00",
+                            "end": "15:00",
+                            "sizeMinutes": 30
+                        }
+                    ],
+                    "zones": [
+                        {
+                            "_id": "5fce6783a119f0db0551778b",
+                            "maxDistanceRadius": 39000,
+                            "deliveryCost": 1,
+                            "avgDeliveryTimeMinutes": 16
+                        }
+                    ]
+                },
+                "takeaway": {
+                    "enabled": true,
+                    "scheduleAheadMinutes": 2880,
+                    "schedules": [
+                        {
+                            "repeatsOn": [
+                                6,
+                                5,
+                                2
+                            ],
+                            "_id": "5fce6783a119f0414a51778a",
+                            "start": "11:00",
+                            "end": "15:00",
+                            "sizeMinutes": 30
+                        }
+                    ]
+                },
+                "tableReservations": {
+                    "enabled": true
+                },
+                "customersQueue": {
+                    "enabled": true
+                },
+                "scango": {
+                    "siteOptions": []
+                },
+                "inOfficeDelivery": {
+                    "getNow": {
+                        "autoAcceptOrder": false,
+                        "siteOptions": []
+                    },
+                    "delivery": {
+                        "autoAcceptOrder": false,
+                        "siteOptions": []
+                    },
+                    "takeaway": {
+                        "autoAcceptOrder": false,
+                        "siteOptions": []
+                    }
+                }
+            },
+            "paymentsInfo": {
+                "inRestaurant": {
+                    "cards": {
+                        "method": [],
+                        "authorizers": []
+                    },
+                    "accepted": []
+                }
+            },
+            "addressInfo": {
+                "address": "Rua da Costa, N300, Porto",
+                "city": "Gaia",
+                "country": "Portugal"
+            },
+            "contacts": {
+                "email": "dasd@gmail.com",
+                "phoneNumber": "24423232323"
+            },
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -9.137020111083986,
+                    38.70845229978765
+                ]
+            },
+            "image": {
+                "file": "5ebd79ea7dd83e712eebd892.jpg",
+                "url": "https://cdn.dev.wdtek.xyz/5ea884ff432c0893e5d4de33/restaurants/5ebd79ea7dd83e712eebd892.jpg"
+            },
+            "cuisines": [],
+            "additionalInfo": [],
+            "_id": "5ebd79ea7dd83e712eebd892",
+            "name": "Atenas Snacks",
+            "company": "5ea884ff432c0893e5d4de33",
+            "capacity": 46,
+            "mealType": "Comida típica Grega",
+            "createdAt": "2020-05-14T17:03:38.776Z",
+            "updatedAt": "2020-12-07T17:33:55.545Z",
+            "__v": 0,
+            "currencyCode": "EUR",
+            "languageCode": "pt-PT",
+            "timezone": "Europe/Lisbon",
+            "languageInfo": "Portuguese (Portugal)",
+            "currencyInfo": {
+                "symbol": "€",
+                "name": "Euro",
+                "symbol_native": "€",
+                "decimal_digits": 2,
+                "rounding": 0,
+                "code": "EUR",
+                "name_plural": "euros"
+            },
+            "countryCode": "PT"
+        }
+    ]
+}
